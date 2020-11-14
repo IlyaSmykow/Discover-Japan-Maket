@@ -32,6 +32,44 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit;}
     flex-direction: column;
 }
 
+.placesCards {
+    background-color: $white_color;
+    width: 100%;
+    .placesCards__wrapper {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        .placesCards__card {
+            width: 390px;
+            overflow: hidden;
+            .placesCards__card_text {
+                margin-top: 45px;
+                width: 100%;
+                color: $dark_color;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 24px;
+            }
+            .placesCards__card_button {
+                color: $white_color;
+                background-color: $blue_color;
+                height: 42px;
+                width: 118px;
+                left: 968px;
+                top: 3946px;
+                border-radius: 0px;
+                font-size: 16px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+            }
+        }
+    }
+    
+}
 
 .video {
     position: relative;
